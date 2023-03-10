@@ -1,0 +1,166 @@
+﻿  AsteroidManager.cpp
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\Manager.hpp(33,4): warning C4150: deletion of pointer to incomplete type 'EntityFr'; no destructor called
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\Manager.hpp(18): message : see declaration of 'EntityFr'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(41,4): warning C4150: deletion of pointer to incomplete type 'Component'; no destructor called
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(20): message : see declaration of 'Component'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(109,4): warning C4150: deletion of pointer to incomplete type 'Component'; no destructor called
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(20): message : see declaration of 'Component'
+  Component.cpp
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\Manager.hpp(33,4): warning C4150: deletion of pointer to incomplete type 'EntityFr'; no destructor called
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\Manager.hpp(18): message : see declaration of 'EntityFr'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(41,4): warning C4150: deletion of pointer to incomplete type 'Component'; no destructor called
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(20): message : see declaration of 'Component'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(109,4): warning C4150: deletion of pointer to incomplete type 'Component'; no destructor called
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(20): message : see declaration of 'Component'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(143,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(147,18): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(45,10): warning C4244: 'return': conversion from 'const int' to 'float', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(50,10): warning C4244: 'return': conversion from 'const int' to 'float', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(75,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(99,12): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(104,13): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Image.h(32,25): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Image.h(33,25): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  daRender.cpp
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\Manager.hpp(33,4): warning C4150: deletion of pointer to incomplete type 'EntityFr'; no destructor called
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\Manager.hpp(18): message : see declaration of 'EntityFr'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\daRender.cpp(58,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\daRender.cpp(59,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Entity.cpp
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\Manager.hpp(33,4): warning C4150: deletion of pointer to incomplete type 'EntityFr'; no destructor called
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\Manager.hpp(18): message : see declaration of 'EntityFr'
+  FramedImage.cpp
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\Manager.hpp(33,4): warning C4150: deletion of pointer to incomplete type 'EntityFr'; no destructor called
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\Manager.hpp(18): message : see declaration of 'EntityFr'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(41,4): warning C4150: deletion of pointer to incomplete type 'Component'; no destructor called
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(20): message : see declaration of 'Component'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(109,4): warning C4150: deletion of pointer to incomplete type 'Component'; no destructor called
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(20): message : see declaration of 'Component'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(143,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(147,18): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(45,10): warning C4244: 'return': conversion from 'const int' to 'float', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(50,10): warning C4244: 'return': conversion from 'const int' to 'float', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(75,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(99,12): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(104,13): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\FramedImage.cpp(10,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\FramedImage.cpp(11,21): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\FramedImage.cpp(12,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\FramedImage.cpp(13,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\FramedImage.cpp(29,35): warning C4018: '>': signed/unsigned mismatch
+  Gun.cpp
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\Manager.hpp(33,4): warning C4150: deletion of pointer to incomplete type 'EntityFr'; no destructor called
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\Manager.hpp(18): message : see declaration of 'EntityFr'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(41,4): warning C4150: deletion of pointer to incomplete type 'Component'; no destructor called
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(20): message : see declaration of 'Component'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(109,4): warning C4150: deletion of pointer to incomplete type 'Component'; no destructor called
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(20): message : see declaration of 'Component'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(143,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(147,18): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(45,10): warning C4244: 'return': conversion from 'const int' to 'float', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(50,10): warning C4244: 'return': conversion from 'const int' to 'float', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(75,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(99,12): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(104,13): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Image.h(32,25): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Image.h(33,25): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Gun.cpp(29,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(90,32): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Gun.cpp(32): message : see reference to function template instantiation 'T *EntityFr::addComponent<TransformComponent,EntityFr*&,int,int,int>(cmpId_type,EntityFr *&,int &&,int &&,int &&)' being compiled
+          with
+          [
+              T=TransformComponent
+          ]
+  Health.cpp
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\Manager.hpp(33,4): warning C4150: deletion of pointer to incomplete type 'EntityFr'; no destructor called
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\Manager.hpp(18): message : see declaration of 'EntityFr'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(41,4): warning C4150: deletion of pointer to incomplete type 'Component'; no destructor called
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(20): message : see declaration of 'Component'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(109,4): warning C4150: deletion of pointer to incomplete type 'Component'; no destructor called
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(20): message : see declaration of 'Component'
+  Image.cpp
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\Manager.hpp(33,4): warning C4150: deletion of pointer to incomplete type 'EntityFr'; no destructor called
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\Manager.hpp(18): message : see declaration of 'EntityFr'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(41,4): warning C4150: deletion of pointer to incomplete type 'Component'; no destructor called
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(20): message : see declaration of 'Component'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(109,4): warning C4150: deletion of pointer to incomplete type 'Component'; no destructor called
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(20): message : see declaration of 'Component'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(143,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(147,18): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(45,10): warning C4244: 'return': conversion from 'const int' to 'float', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(50,10): warning C4244: 'return': conversion from 'const int' to 'float', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(75,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(99,12): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(104,13): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Image.h(32,25): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Image.h(33,25): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Image.cpp(19,88): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Image.cpp(19,68): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Manager.cpp
+  SoundComponent.cpp
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\Manager.hpp(33,4): warning C4150: deletion of pointer to incomplete type 'EntityFr'; no destructor called
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\Manager.hpp(18): message : see declaration of 'EntityFr'
+  Transform.cpp
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\Manager.hpp(33,4): warning C4150: deletion of pointer to incomplete type 'EntityFr'; no destructor called
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\Manager.hpp(18): message : see declaration of 'EntityFr'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(41,4): warning C4150: deletion of pointer to incomplete type 'Component'; no destructor called
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(20): message : see declaration of 'Component'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(109,4): warning C4150: deletion of pointer to incomplete type 'Component'; no destructor called
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(20): message : see declaration of 'Component'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(143,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(147,18): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(45,10): warning C4244: 'return': conversion from 'const int' to 'float', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(50,10): warning C4244: 'return': conversion from 'const int' to 'float', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(75,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(99,12): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(104,13): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.cpp(12,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.cpp(31,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  WrapAround.cpp
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\Manager.hpp(33,4): warning C4150: deletion of pointer to incomplete type 'EntityFr'; no destructor called
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\Manager.hpp(18): message : see declaration of 'EntityFr'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(41,4): warning C4150: deletion of pointer to incomplete type 'Component'; no destructor called
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(20): message : see declaration of 'Component'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(109,4): warning C4150: deletion of pointer to incomplete type 'Component'; no destructor called
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(20): message : see declaration of 'Component'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(143,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(147,18): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(45,10): warning C4244: 'return': conversion from 'const int' to 'float', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(50,10): warning C4244: 'return': conversion from 'const int' to 'float', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(75,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(99,12): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(104,13): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\WrapAround.cpp(11,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\WrapAround.cpp(19,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  main.cpp
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\Manager.hpp(33,4): warning C4150: deletion of pointer to incomplete type 'EntityFr'; no destructor called
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\Manager.hpp(18): message : see declaration of 'EntityFr'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(143,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(147,18): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(45,10): warning C4244: 'return': conversion from 'const int' to 'float', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(50,10): warning C4244: 'return': conversion from 'const int' to 'float', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(75,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(99,12): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(104,13): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Image.h(32,25): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Image.h(33,25): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\main.cpp(30,11): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\main.cpp(113,57): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\main.cpp(113,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\main.cpp(82,10): warning C4101: 'b': unreferenced local variable
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(90,32): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\main.cpp(99): message : see reference to function template instantiation 'T *EntityFr::addComponent<TransformComponent,EntityFr*&,int,int,int>(cmpId_type,EntityFr *&,int &&,int &&,int &&)' being compiled
+          with
+          [
+              T=TransformComponent
+          ]
+  Generating Code...
+  TPV2_Asteroids.vcxproj -> D:\TPV2_Asteroids\TPV2_Asteroids\x64\Debug\TPV2_Asteroids.exe

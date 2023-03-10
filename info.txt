@@ -1,0 +1,9 @@
+Santiago Rueda Cruz
+-----
+
+Cosas que no funcionan correctamente:
+
+	- Generación de asteroides
+	- Generación de balas
+	- Reducción de vidas
+	- No hay maquina de estados ni sistema de colisiones
