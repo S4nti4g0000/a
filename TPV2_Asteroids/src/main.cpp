@@ -22,6 +22,7 @@
 #include "../src/components/SoundComponent.h"
 
 
+
 namespace utils
 {
 
@@ -55,6 +56,8 @@ int main(int argc, const char** argv[])
 
 	if (!(IMG_Init(IMG_INIT_PNG)))
 		cout << "Dude there's an error with the image! CODE: " << SDL_GetError() << endl;
+	if (Mix_Init(MIX_INIT_MP3 | MIX_INIT_OGG) < 0)
+		cout << "No audio. CODE: " << SDL_GetError() << endl;
 
 	auto& ren = *rWindow::instance();
 
@@ -84,7 +87,10 @@ int main(int argc, const char** argv[])
 	//Textures
 
 	Texture* shipTx = new Texture(ren.renderer(), "../TPV2_Asteroids/resources/images/fighter.png");
-	Mix_Chunk* shSound = Mix_LoadWAV("../resources/sound/thrust.wav");
+	Mix_Chunk* shSound = nullptr;// = Mix_LoadWAV("../resources/sound/thrust.wav");
+	SoundComponent sComp(shSound);
+	
+	sComp.loadEffect("..resources/sound/thrust.wav");
 
 	//Manager
 
@@ -100,7 +106,7 @@ int main(int argc, const char** argv[])
 	ship->addComponent<Image>(_frmImage, ship, shipTx);
 	ship->addComponent<WrapAroundComp>(_reappear, winWidth - 64, winHeight - 64);
 	ship->addComponent<health>(_health, renderer, 10, 10, 26, 26);
-	ship->addComponent<SoundComponent>(_sound, shSound);
+	//ship->addComponent<SoundComponent>(_sound, shSound);
 
 	ship->getComponent<TransformComponent>(_Transform)->setContext(ship, man_);
 	ship->getComponent<Image>(_frmImage)->setContext(ship, man_);
@@ -178,6 +184,8 @@ int main(int argc, const char** argv[])
 		//ast->renderC();
 		//bullet->updateC();
 		//bullet->renderC();
+		
+		
 
 		ren.display();
 
@@ -198,6 +206,8 @@ int main(int argc, const char** argv[])
 	SDL_DestroyWindow(window);
 	ren.cleanUp();
 	SDL_Quit();
+	Mix_Quit();
+	IMG_Quit();
 
 	return 0;
 }

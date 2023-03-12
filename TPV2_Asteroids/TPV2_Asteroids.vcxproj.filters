@@ -137,7 +137,7 @@
     <ClInclude Include="src\components\Health.h">
       <Filter>Header Files\components</Filter>
     </ClInclude>
-    <ClInclude Include="SoundComponent.h">
+    <ClInclude Include="src\components\SoundComponent.h">
       <Filter>Header Files\components</Filter>
     </ClInclude>
   </ItemGroup>

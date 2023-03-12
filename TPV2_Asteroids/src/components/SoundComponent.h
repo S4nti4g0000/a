@@ -14,10 +14,19 @@ public:
 		:movEff_(mix)
 	{}
 
-	virtual ~SoundComponent(){}
+	virtual ~SoundComponent() {}
 
 	void initComponent();
 	virtual void Update();
+
+	inline void loadEffect(const char* Path)
+	{
+		movEff_ = Mix_LoadWAV(Path);
+		if (movEff_ == NULL)
+		{
+			cout << "Failed to load effect. Code:" << Mix_GetError() << endl;
+		}
+	}
 
 
 private:

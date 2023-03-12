@@ -151,11 +151,11 @@
     <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SoundComponent.h" />
     <ClInclude Include="src\components\FramedImage.h" />
     <ClInclude Include="src\components\Gun.h" />
     <ClInclude Include="src\components\Health.h" />
     <ClInclude Include="src\components\Image.h" />
+    <ClInclude Include="src\components\SoundComponent.h" />
     <ClInclude Include="src\components\Transform.h" />
     <ClInclude Include="src\components\WrapAround.h" />
     <ClInclude Include="src\ecs\AsteroidManager.hpp" />

@@ -74,7 +74,7 @@ void TransformComponent::Update()
 
 	setPosition(position_);
 
-	cout << "updating tr, component: " << manager_->getEntity("ship");
+	//cout << "updating tr, component: " << manager_->getEntity("ship");
 
 }
 
