@@ -3,6 +3,7 @@
 #include "/TPV2_Asteroids/TPV2_Asteroids/TPV2_Asteroids/src/ecs/Component.hpp"
 #include "../../src/ecs/Manager.hpp"
 
+#include "../components/SoundComponent.h"
 #include "../components/AsteroidComp.h"
 #include "../components/FramedImage.h"
 #include "../components/Gun.h"
@@ -11,17 +12,13 @@
 #include "../components/Transform.h"
 #include "../components/WrapAround.h"
 
-
-void Component::Render()
+void Component::initComponent()
 {
-
+	
 }
 
-void Component::Update()
-{}
+void Component::Render(){}
 
+void Component::Update(){}
 
-void AsteroidComp::Render()
-{
-
-}
+//void AsteroidComp::Render(){}

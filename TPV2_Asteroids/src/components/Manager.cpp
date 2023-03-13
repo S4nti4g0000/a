@@ -21,9 +21,22 @@ EntityFr* Manager::addEnts(grpId_type gId = ecs::_grp_General)
 	return e;
 }
 
+
 const auto& Manager::getEntities(grpId_type gId = ecs::_grp_General)
 {
 	return groups_[gId];
+}
+
+void Manager::Init()
+{
+	for (auto& ent : groups_)
+	{
+		auto n = entities_.size();
+		for (auto i = 0; i < n; i++)
+		{
+			entities_[i]->initC();
+		}
+	}
 }
 
 void Manager::Refresh()

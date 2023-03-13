@@ -4,7 +4,6 @@
 #include "SDL_mixer.h"
 #undef main
 
-
 #include "../src/ecs/daRender.hpp"
 #include "../src/ecs/EntityFr.hpp"
 #include "../src/ecs/Utils.hpp"
@@ -89,8 +88,7 @@ int main(int argc, const char** argv[])
 	Texture* shipTx = new Texture(ren.renderer(), "../TPV2_Asteroids/resources/images/fighter.png");
 	Mix_Chunk* shSound = nullptr;// = Mix_LoadWAV("../resources/sound/thrust.wav");
 	SoundComponent sComp(shSound);
-	
-	sComp.loadEffect("..resources/sound/thrust.wav");
+
 
 	//Manager
 
@@ -100,14 +98,18 @@ int main(int argc, const char** argv[])
 	auto ast = man_->addEnts(_grp_Asteroids);
 	AsteroidManager* astMngr = new AsteroidManager(man_);
 
+	//man_->Init();
+	
+	//sComp.loadEffect("resources/sound/thrust.wav");
 	//Ship components
 
 	auto shipComp = ship->addComponent<TransformComponent>(_Transform, ship, 0, 32, 32);
 	ship->addComponent<Image>(_frmImage, ship, shipTx);
 	ship->addComponent<WrapAroundComp>(_reappear, winWidth - 64, winHeight - 64);
 	ship->addComponent<health>(_health, renderer, 10, 10, 26, 26);
-	//ship->addComponent<SoundComponent>(_sound, shSound);
+	ship->addComponent<SoundComponent>(_sound, shSound);
 
+	ship->getComponent<SoundComponent>(_sound)->setContext(ship, man_);
 	ship->getComponent<TransformComponent>(_Transform)->setContext(ship, man_);
 	ship->getComponent<Image>(_frmImage)->setContext(ship, man_);
 
@@ -133,6 +135,8 @@ int main(int argc, const char** argv[])
 
 
 	//GameLoop
+	
+	ship->initC();
 
 	while (itsAlive)
 	{

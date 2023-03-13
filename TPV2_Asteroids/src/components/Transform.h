@@ -149,8 +149,8 @@ private:
 	int width_;
 	int height_;
 
-	float x_;
-	float y_;
+	float x_ = 362;
+	float y_ = 268;
 
 	float vX_;
 	float vY_;

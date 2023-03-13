@@ -1,31 +1,4 @@
 ﻿  SoundComponent.cpp
 D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\Manager.hpp(33,4): warning C4150: deletion of pointer to incomplete type 'EntityFr'; no destructor called
 D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\Manager.hpp(18): message : see declaration of 'EntityFr'
-  main.cpp
-D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\Manager.hpp(33,4): warning C4150: deletion of pointer to incomplete type 'EntityFr'; no destructor called
-D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\Manager.hpp(18): message : see declaration of 'EntityFr'
-D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(143,31): warning C4305: 'initializing': truncation from 'double' to 'float'
-D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(147,18): warning C4305: 'initializing': truncation from 'double' to 'float'
-D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(45,10): warning C4244: 'return': conversion from 'const int' to 'float', possible loss of data
-D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(50,10): warning C4244: 'return': conversion from 'const int' to 'float', possible loss of data
-D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(75,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(99,12): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Transform.h(104,13): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Image.h(32,25): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\components\Image.h(33,25): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\main.cpp(31,11): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
-D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\main.cpp(119,57): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\main.cpp(119,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\main.cpp(85,10): warning C4101: 'b': unreferenced local variable
-D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\ecs\EntityFr.hpp(90,32): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
-          with
-          [
-              _Ty=int
-          ]
-D:\TPV2_Asteroids\TPV2_Asteroids\TPV2_Asteroids\src\main.cpp(105): message : see reference to function template instantiation 'T *EntityFr::addComponent<TransformComponent,EntityFr*&,int,int,int>(cmpId_type,EntityFr *&,int &&,int &&,int &&)' being compiled
-          with
-          [
-              T=TransformComponent
-          ]
-  Generating Code...
   TPV2_Asteroids.vcxproj -> D:\TPV2_Asteroids\TPV2_Asteroids\x64\Debug\TPV2_Asteroids.exe

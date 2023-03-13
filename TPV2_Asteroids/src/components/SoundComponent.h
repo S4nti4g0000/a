@@ -19,14 +19,7 @@ public:
 	void initComponent();
 	virtual void Update();
 
-	inline void loadEffect(const char* Path)
-	{
-		movEff_ = Mix_LoadWAV(Path);
-		if (movEff_ == NULL)
-		{
-			cout << "Failed to load effect. Code:" << Mix_GetError() << endl;
-		}
-	}
+	virtual void loadEffect(const char* Path);
 
 
 private:

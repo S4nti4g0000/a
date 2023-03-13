@@ -23,9 +23,9 @@ public:
 		manager_ = mngr;
 	}
 
+	virtual void initComponent();
 	virtual void Update();
 	virtual void Render();
-	inline void initComponent();
 	
 protected:
 

@@ -50,6 +50,7 @@ public:
 	virtual EntityFr* addEnts(grpId_type gId);
 	const auto& getEntities(grpId_type gId);
 
+	virtual void Init();
 	virtual void Update();
 	virtual void Refresh();
 	virtual void Render();

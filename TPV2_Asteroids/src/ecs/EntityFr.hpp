@@ -125,6 +125,7 @@ public:
 
 	//Call update and render of all components
 
+	void initC();
 	void updateC();
     void renderC();
 
